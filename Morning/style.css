@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Benda wajib */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+p {
+  color: #4a5568;
+}
+html {
+  scroll-behavior: smooth;
+}
+.section-1 {
+  background-color: #c5e6f9;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+nav {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+button {
+  all: unset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu-items {
+  list-style: none;
+  /* display: inline-block; */
+  float: right;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-1 .text-group {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-1 .text-group h2 {
+  color: #1a202c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.section-1 .text-group h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #4a5568;
+}
+
+.section-1 .button-group #getInTouch {
+  all: unset;
+  background: linear-gradient(
+    90deg,
+    #0067f4 -3.33%,
+    #0067f4 17.47%,
+    rgba(43, 219, 220, 0.5) 114.17%
+  );
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-1 .button-group #watchTheVideo {
+  background-color: white;
+  color: #0067f4;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+/* for Services */
+.part-2 {
+  display: inline-block;
+}
+
+.service-size {
+  width: 662.857px;
+  height: 459.103px;
+  flex-shrink: 0;
+}
+
+.column-1 {
+  display: inline-block;
+}
+
+.column-2 {
+  display: inline-block;
+  width: 662.857px;
+  height: 459.103px;
+  flex-shrink: 0;
+}
+
+.section-3 {
+  background: #f7fafc;
+}
+
+#getInTouch {
+  all: unset;
+  background: linear-gradient(
+    90deg,
+    #0067f4 -3.33%,
+    #0067f4 17.47%,
+    rgba(43, 219, 220, 0.5) 114.17%
+  );
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 10px;
+}
+
+.images {
+  width: 30%;
+}
+
+.price-box {
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+  margin: 10px;
+  padding: 6;
+}
+
+.benefit {
+  list-style: none;
+  text-align: justify;
+  color: #1a202c;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 10px;
+}
+
+.section-3 .text-group {
+  color: #1a202c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.section-3 p {
+  color: #4a5568;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#basic {
+  color: #81e6d9;
+}
+
+#pro {
+  color: #0067f4;
+}
+
+#enterprise {
+  color: #4da422;
+}
+
+.section-5 {
+  background: #3182ce;
+}
+
+.section-5 .mail {
+  background: white;
+}
